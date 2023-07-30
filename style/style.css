@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 24px;
+}
+
+#input {
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.col-3 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+
+.row {
+    /*width: 920px;*/
+    padding: 30px 10px;
+    border-radius: 10px;
+    background-image: url("../assets/oblako.png");
+    background-color: #2768a1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: -1px 2px 27px 16px rgba(35, 102, 153, 0.59);}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 40px;
+    gap: 20px;
+}
+
+.box-3 {
+    align-items: flex-end;
+}
+
+.celcia {
+    padding-left: 250px;
+    /*padding-top: 30px;*/
+}
+
+#weather {
+    font-size: 54px;
+    /*white-space: nowrap;*/
+}
+
+span {
+    white-space: nowrap;
+}
+
+input {
+    padding: 5px;
+    outline: none;
+}
